@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: app
+        ports:
+            - "4000:4000"
+        depends_on:
+            - postgres
+        environment:
+            NODE_ENV: dev
+            DATABASE_URL: "postgres://user:password@postgres:5432/mydatabase"
+        volumes:
+            - .:/app
+
+    postgres:
+        image: postgres:16.2-alpine3.19
+        restart: always
+        container_name: postgres
+        environment:
+            POSTGRES_DB: mydatabase
+            POSTGRES_USER: user
+            POSTGRES_PASSWORD: password
+        volumes:
+            - ./pgdata:/var/lib/postgresql/data
+        ports:
+            - "5432:5432"

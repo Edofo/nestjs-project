@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "resolveJsonModule": true,
+      "target": "ES6",
+      "sourceMap": true,
+      "outDir": "./dist",
+      "baseUrl": ".",
+      "paths": {
+          "@/*": ["./*"],
+          "@modules/*": ["./src/modules/*"],
+          "@helpers/*": ["./src/helpers/*"],
+          "@decorators/*": ["./src/decorators/*"],
+          "@config/*": ["./config/*"]
+      },
+      "incremental": true,
+      "skipLibCheck": true,
+      "strictNullChecks": false,
+      "noImplicitAny": false,
+      "strictBindCallApply": false,
+      "forceConsistentCasingInFileNames": false,
+      "noFallthroughCasesInSwitch": false,
+      "lib": ["ES6", "DOM", "ESNext"],
+      "types": ["jest", "node"],
+  }
+}

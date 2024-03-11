@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "./src",
+  "baseUrl": "./src",
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "@nestjs/swagger/plugin",
+        "options": {
+          "classValidatorShim": false,
+          "dtoFileNameSuffix": [".dto.ts", ".entity.ts"]
+        }
+      }
+    ]
+  }
+}

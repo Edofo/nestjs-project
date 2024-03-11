@@ -1,0 +1,2244 @@
+{
+  "nodes": {
+    "95355232": {
+      "id": "95355232",
+      "label": "JwtModule",
+      "parent": "-536515674",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "JwtModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "JwtModule",
+        "initTime": 2.498833999999988
+      }
+    },
+    "136760968": {
+      "id": "136760968",
+      "label": "TerminusModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "141991374": {
+      "id": "141991374",
+      "label": "ApplicationConfig",
+      "parent": "938844585",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "LoggerModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "203550704": {
+      "id": "203550704",
+      "label": "ExternalContextCreator",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "ExternalContextCreator",
+        "initTime": 3.305082999999968
+      }
+    },
+    "225063248": {
+      "id": "225063248",
+      "label": "InternalCoreModule",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "InternalCoreModule",
+        "initTime": 3.906582999999955
+      }
+    },
+    "256260345": {
+      "id": "256260345",
+      "label": "ApplicationConfig",
+      "parent": "1528017428",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "DatabaseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "385041166": {
+      "id": "385041166",
+      "label": "JwtStrategy",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "JwtStrategy",
+        "initTime": 9.634874999999965
+      }
+    },
+    "418420354": {
+      "id": "418420354",
+      "label": "ModuleRef",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "555176277": {
+      "id": "555176277",
+      "label": "InternalCoreModule",
+      "metadata": {
+        "type": "module",
+        "global": true,
+        "dynamic": true,
+        "internal": true
+      }
+    },
+    "671882984": {
+      "id": "671882984",
+      "label": "Reflector",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "Reflector",
+        "initTime": 3.7184169999998176
+      }
+    },
+    "712454178": {
+      "id": "712454178",
+      "label": "ApplicationConfig",
+      "parent": "1482218087",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ThrottlerModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "719802978": {
+      "id": "719802978",
+      "label": "GRPCHealthIndicator",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "scope": 1,
+        "transient": true,
+        "exported": true,
+        "token": "GRPCHealthIndicator",
+        "initTime": 2.455459000000019
+      }
+    },
+    "772659425": {
+      "id": "772659425",
+      "label": "ConfigService",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "ConfigService",
+        "initTime": 5.033582999999908
+      }
+    },
+    "822552719": {
+      "id": "822552719",
+      "label": "PrettyErrorLogger",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "PrettyErrorLogger",
+        "initTime": 2.685124999999971
+      }
+    },
+    "822552720": {
+      "id": "822552720",
+      "label": "PrettyErrorLogger",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "TERMINUS_ERROR_LOGGER",
+        "initTime": 2.452208000000155
+      }
+    },
+    "822859868": {
+      "id": "822859868",
+      "label": "PrismaService",
+      "parent": "1528017428",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "DatabaseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "PrismaService",
+        "initTime": 8.835291999999981
+      }
+    },
+    "837459112": {
+      "id": "837459112",
+      "label": "ApplicationConfig",
+      "parent": "-1069663485",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "PrometheusModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "915774976": {
+      "id": "915774976",
+      "label": "ApplicationConfig",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "916791331": {
+      "id": "916791331",
+      "label": "ModuleRef",
+      "parent": "938844585",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "LoggerModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "938844585": {
+      "id": "938844585",
+      "label": "LoggerModule",
+      "metadata": {
+        "type": "module",
+        "global": true,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "1064117840": {
+      "id": "1064117840",
+      "label": "ApplicationConfig",
+      "parent": "-1959092373",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "PassportModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1070370213": {
+      "id": "1070370213",
+      "label": "JwtService",
+      "parent": "-536515674",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "JwtModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "JwtService",
+        "initTime": 4.517000000000053
+      }
+    },
+    "1234297242": {
+      "id": "1234297242",
+      "label": "ApplicationConfig",
+      "parent": "2031150453",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "HealthModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1311646764": {
+      "id": "1311646764",
+      "label": "PrometheusModule",
+      "parent": "-1069663485",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "PrometheusModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "PrometheusModule",
+        "initTime": 2.909750000000031
+      }
+    },
+    "1388955800": {
+      "id": "1388955800",
+      "label": "HttpHealthIndicator",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "scope": 1,
+        "transient": true,
+        "exported": true,
+        "token": "HttpHealthIndicator",
+        "initTime": 9.221250000000055
+      }
+    },
+    "1399306624": {
+      "id": "1399306624",
+      "label": "ThrottlerModule",
+      "parent": "1482218087",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ThrottlerModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ThrottlerModule",
+        "initTime": 2.9260000000001583
+      }
+    },
+    "1404752088": {
+      "id": "1404752088",
+      "label": "AuthController",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "controller",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "AuthController",
+        "initTime": 0.05104099999994105
+      }
+    },
+    "1408141043": {
+      "id": "1408141043",
+      "label": "MongooseHealthIndicator",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "scope": 1,
+        "transient": true,
+        "exported": true,
+        "token": "MongooseHealthIndicator",
+        "initTime": 4.799959000000172
+      }
+    },
+    "1434456218": {
+      "id": "1434456218",
+      "label": "Reflector",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "Reflector",
+        "initTime": 7.108665999999857
+      }
+    },
+    "1482218087": {
+      "id": "1482218087",
+      "label": "ThrottlerModule",
+      "metadata": {
+        "type": "module",
+        "global": true,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "1528017428": {
+      "id": "1528017428",
+      "label": "DatabaseModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "1542581243": {
+      "id": "1542581243",
+      "label": "ModuleRef",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1623724461": {
+      "id": "1623724461",
+      "label": "ModuleRef",
+      "parent": "1482218087",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ThrottlerModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1690574933": {
+      "id": "1690574933",
+      "label": "ModuleRef",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1712628187": {
+      "id": "1712628187",
+      "label": "ConfigModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "1712941473": {
+      "id": "1712941473",
+      "label": "ApplicationConfig",
+      "parent": "-536515674",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "JwtModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1746001014": {
+      "id": "1746001014",
+      "label": "HealthCheckService",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "HealthCheckService",
+        "initTime": 9.352208000000019
+      }
+    },
+    "1755859792": {
+      "id": "1755859792",
+      "label": "ThrottlerGuard",
+      "parent": "-19112576",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AppModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "APP_GUARD (UUID: 1239237319)",
+        "subtype": "guard",
+        "initTime": 9.904541999999992,
+        "global": true
+      }
+    },
+    "1765565105": {
+      "id": "1765565105",
+      "label": "CheckDiskSpaceLib",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "CheckDiskSpaceLib"
+      }
+    },
+    "1769319388": {
+      "id": "1769319388",
+      "label": "ConfigModule",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ConfigModule",
+        "initTime": 2.7607500000001437
+      }
+    },
+    "1809676814": {
+      "id": "1809676814",
+      "label": "ModuleRef",
+      "parent": "1528017428",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "DatabaseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1919157847": {
+      "id": "1919157847",
+      "label": "REQUEST",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": false,
+        "scope": 2,
+        "transient": false,
+        "exported": true,
+        "token": "REQUEST",
+        "initTime": 2.8733330000000024
+      }
+    },
+    "2009097199": {
+      "id": "2009097199",
+      "label": "ModuleRef",
+      "parent": "2031150453",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "HealthModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "2031150453": {
+      "id": "2031150453",
+      "label": "HealthModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1486320561": {
+      "id": "-1486320561",
+      "label": "ModuleRef",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-651043398": {
+      "id": "-651043398",
+      "label": "ApplicationConfig",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-255469305": {
+      "id": "-255469305",
+      "label": "INQUIRER",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 1,
+        "transient": true,
+        "exported": true,
+        "token": "INQUIRER",
+        "initTime": 2.867917000000034
+      }
+    },
+    "-26938366": {
+      "id": "-26938366",
+      "label": "ModulesContainer",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "ModulesContainer",
+        "initTime": 3.1927079999998114
+      }
+    },
+    "-326832201": {
+      "id": "-326832201",
+      "label": "HttpAdapterHost",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "HttpAdapterHost",
+        "initTime": 3.1814170000000104
+      }
+    },
+    "-702581189": {
+      "id": "-702581189",
+      "label": "LazyModuleLoader",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "LazyModuleLoader",
+        "initTime": 3.178124999999909
+      }
+    },
+    "-1904419534": {
+      "id": "-1904419534",
+      "label": "SerializedGraph",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "SerializedGraph",
+        "initTime": 3.1729589999999916
+      }
+    },
+    "-19112576": {
+      "id": "-19112576",
+      "label": "AppModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-2139588960": {
+      "id": "-2139588960",
+      "label": "AppModule",
+      "parent": "-19112576",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AppModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "AppModule",
+        "initTime": 3.2250830000000406
+      }
+    },
+    "-71302842": {
+      "id": "-71302842",
+      "label": "ModuleRef",
+      "parent": "-19112576",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AppModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-2064622725": {
+      "id": "-2064622725",
+      "label": "ApplicationConfig",
+      "parent": "-19112576",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AppModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-1952648617": {
+      "id": "-1952648617",
+      "label": "THROTTLER:MODULE_OPTIONS",
+      "parent": "1482218087",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ThrottlerModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "THROTTLER:MODULE_OPTIONS"
+      }
+    },
+    "-470986226": {
+      "id": "-470986226",
+      "label": "Symbol(ThrottlerStorage)",
+      "parent": "1482218087",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ThrottlerModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "Symbol(ThrottlerStorage)",
+        "initTime": 5.267291999999998
+      }
+    },
+    "-1069663485": {
+      "id": "-1069663485",
+      "label": "PrometheusModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-977933187": {
+      "id": "-977933187",
+      "label": "ModuleRef",
+      "parent": "-1069663485",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "PrometheusModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1373608328": {
+      "id": "-1373608328",
+      "label": "LoggerModule",
+      "parent": "938844585",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "LoggerModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "LoggerModule",
+        "initTime": 2.895667000000003
+      }
+    },
+    "-430147679": {
+      "id": "-430147679",
+      "label": "LoggerService",
+      "parent": "938844585",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "LoggerModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "LoggerService",
+        "initTime": 2.774208000000044
+      }
+    },
+    "-1009023633": {
+      "id": "-1009023633",
+      "label": "CONFIG_OPTIONS",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "CONFIG_OPTIONS"
+      }
+    },
+    "-1158439920": {
+      "id": "-1158439920",
+      "label": "HealthModule",
+      "parent": "2031150453",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "HealthModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "HealthModule",
+        "initTime": 2.7113339999998516
+      }
+    },
+    "-1910447296": {
+      "id": "-1910447296",
+      "label": "HealthController",
+      "parent": "2031150453",
+      "metadata": {
+        "type": "controller",
+        "internal": false,
+        "sourceModuleName": "HealthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "HealthController",
+        "initTime": 4.514125000000149
+      }
+    },
+    "-226865802": {
+      "id": "-226865802",
+      "label": "TerminusModule",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TerminusModule",
+        "initTime": 2.701041999999916
+      }
+    },
+    "-1134996115": {
+      "id": "-1134996115",
+      "label": "ApplicationConfig",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-614767394": {
+      "id": "-614767394",
+      "label": "JsonErrorLogger",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "JsonErrorLogger",
+        "initTime": 2.689875000000029
+      }
+    },
+    "-584422356": {
+      "id": "-584422356",
+      "label": "HealthCheckExecutor",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "HealthCheckExecutor",
+        "initTime": 2.6810830000001715
+      }
+    },
+    "-1533610224": {
+      "id": "-1533610224",
+      "label": "TypeOrmHealthIndicator",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "scope": 1,
+        "transient": true,
+        "exported": true,
+        "token": "TypeOrmHealthIndicator",
+        "initTime": 4.933334000000059
+      }
+    },
+    "-1676301719": {
+      "id": "-1676301719",
+      "label": "SequelizeHealthIndicator",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "scope": 1,
+        "transient": true,
+        "exported": true,
+        "token": "SequelizeHealthIndicator",
+        "initTime": 4.783542000000125
+      }
+    },
+    "-264216349": {
+      "id": "-264216349",
+      "label": "DiskHealthIndicator",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "DiskHealthIndicator",
+        "initTime": 4.775750000000016
+      }
+    },
+    "-1829942017": {
+      "id": "-1829942017",
+      "label": "MemoryHealthIndicator",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "MemoryHealthIndicator",
+        "initTime": 2.4694170000000213
+      }
+    },
+    "-2024492913": {
+      "id": "-2024492913",
+      "label": "MicroserviceHealthIndicator",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "scope": 1,
+        "transient": true,
+        "exported": true,
+        "token": "MicroserviceHealthIndicator",
+        "initTime": 2.4586249999999836
+      }
+    },
+    "-277836830": {
+      "id": "-277836830",
+      "label": "MikroOrmHealthIndicator",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "scope": 1,
+        "transient": true,
+        "exported": true,
+        "token": "MikroOrmHealthIndicator",
+        "initTime": 4.7436250000000655
+      }
+    },
+    "-730198816": {
+      "id": "-730198816",
+      "label": "PrismaHealthIndicator",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "PrismaHealthIndicator",
+        "initTime": 2.432708000000048
+      }
+    },
+    "-1859643091": {
+      "id": "-1859643091",
+      "label": "DefaultTerminusLogger",
+      "parent": "136760968",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TerminusModule",
+        "durable": false,
+        "static": true,
+        "scope": 1,
+        "transient": true,
+        "exported": false,
+        "token": "TERMINUS_LOGGER",
+        "initTime": 4.06833400000005
+      }
+    },
+    "-1098322034": {
+      "id": "-1098322034",
+      "label": "DatabaseModule",
+      "parent": "1528017428",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "DatabaseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "DatabaseModule",
+        "initTime": 2.642125000000078
+      }
+    },
+    "-1134487807": {
+      "id": "-1134487807",
+      "label": "AuthModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1846279256": {
+      "id": "-1846279256",
+      "label": "AuthModule",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "AuthModule",
+        "initTime": 2.6183750000000146
+      }
+    },
+    "-120792986": {
+      "id": "-120792986",
+      "label": "ApplicationConfig",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-793915935": {
+      "id": "-793915935",
+      "label": "AuthService",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "AuthService",
+        "initTime": 9.23116600000003
+      }
+    },
+    "-1959092373": {
+      "id": "-1959092373",
+      "label": "PassportModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1891293700": {
+      "id": "-1891293700",
+      "label": "PassportModule",
+      "parent": "-1959092373",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "PassportModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "PassportModule",
+        "initTime": 2.5173749999999018
+      }
+    },
+    "-1677432987": {
+      "id": "-1677432987",
+      "label": "ModuleRef",
+      "parent": "-1959092373",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "PassportModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-536515674": {
+      "id": "-536515674",
+      "label": "JwtModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-588705940": {
+      "id": "-588705940",
+      "label": "ModuleRef",
+      "parent": "-536515674",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "JwtModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1900804336": {
+      "id": "-1900804336",
+      "label": "JWT_MODULE_OPTIONS",
+      "parent": "-536515674",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "JwtModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "JWT_MODULE_OPTIONS"
+      }
+    }
+  },
+  "edges": {
+    "5864122": {
+      "source": "-536515674",
+      "target": "938844585",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "JwtModule",
+        "targetModuleName": "LoggerModule"
+      },
+      "id": "5864122"
+    },
+    "185446636": {
+      "source": "-1959092373",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PassportModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "185446636"
+    },
+    "189694679": {
+      "source": "1434456218",
+      "target": "671882984",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "InternalCoreModule",
+        "sourceClassName": "Reflector",
+        "targetClassName": "Reflector",
+        "sourceClassToken": "Reflector",
+        "targetClassToken": "Reflector",
+        "targetModuleName": "InternalCoreModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "189694679"
+    },
+    "219775656": {
+      "source": "-19112576",
+      "target": "-1134487807",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "AuthModule"
+      },
+      "id": "219775656"
+    },
+    "313173163": {
+      "source": "1482218087",
+      "target": "938844585",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ThrottlerModule",
+        "targetModuleName": "LoggerModule"
+      },
+      "id": "313173163"
+    },
+    "565650659": {
+      "source": "-536515674",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "JwtModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "565650659"
+    },
+    "574415498": {
+      "source": "-277836830",
+      "target": "418420354",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "TerminusModule",
+        "sourceClassName": "MikroOrmHealthIndicator",
+        "targetClassName": "ModuleRef",
+        "sourceClassToken": "MikroOrmHealthIndicator",
+        "targetClassToken": "ModuleRef",
+        "targetModuleName": "TerminusModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "574415498"
+    },
+    "584653416": {
+      "source": "1712628187",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "584653416"
+    },
+    "681815594": {
+      "source": "-470986226",
+      "target": "-1952648617",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ThrottlerModule",
+        "sourceClassName": "Symbol(ThrottlerStorage)",
+        "targetClassName": "THROTTLER:MODULE_OPTIONS",
+        "sourceClassToken": "Symbol(ThrottlerStorage)",
+        "targetClassToken": "THROTTLER:MODULE_OPTIONS",
+        "targetModuleName": "ThrottlerModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "681815594"
+    },
+    "771819198": {
+      "source": "1755859792",
+      "target": "-470986226",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AppModule",
+        "sourceClassName": "ThrottlerGuard",
+        "targetClassName": "Symbol(ThrottlerStorage)",
+        "sourceClassToken": "APP_GUARD (UUID: 1239237319)",
+        "targetClassToken": "Symbol(ThrottlerStorage)",
+        "targetModuleName": "ThrottlerModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "771819198"
+    },
+    "807697929": {
+      "source": "-19112576",
+      "target": "1528017428",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "DatabaseModule"
+      },
+      "id": "807697929"
+    },
+    "820893156": {
+      "source": "1755859792",
+      "target": "-1952648617",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AppModule",
+        "sourceClassName": "ThrottlerGuard",
+        "targetClassName": "THROTTLER:MODULE_OPTIONS",
+        "sourceClassToken": "APP_GUARD (UUID: 1239237319)",
+        "targetClassToken": "THROTTLER:MODULE_OPTIONS",
+        "targetModuleName": "ThrottlerModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "820893156"
+    },
+    "849339827": {
+      "source": "772659425",
+      "target": "-1009023633",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "ConfigService",
+        "targetClassName": "CONFIG_OPTIONS",
+        "sourceClassToken": "ConfigService",
+        "targetClassToken": "CONFIG_OPTIONS",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "849339827"
+    },
+    "978356204": {
+      "source": "-1134487807",
+      "target": "-536515674",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "JwtModule"
+      },
+      "id": "978356204"
+    },
+    "998772595": {
+      "source": "-1134487807",
+      "target": "-1959092373",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "PassportModule"
+      },
+      "id": "998772595"
+    },
+    "1056428433": {
+      "source": "-19112576",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1056428433"
+    },
+    "1134336077": {
+      "source": "-536515674",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "JwtModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1134336077"
+    },
+    "1148658441": {
+      "source": "2031150453",
+      "target": "1528017428",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "HealthModule",
+        "targetModuleName": "DatabaseModule"
+      },
+      "id": "1148658441"
+    },
+    "1175183130": {
+      "source": "1070370213",
+      "target": "-1900804336",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "JwtModule",
+        "sourceClassName": "JwtService",
+        "targetClassName": "JWT_MODULE_OPTIONS",
+        "sourceClassToken": "JwtService",
+        "targetClassToken": "JWT_MODULE_OPTIONS",
+        "targetModuleName": "JwtModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "1175183130"
+    },
+    "1466978437": {
+      "source": "2031150453",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "HealthModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "1466978437"
+    },
+    "1572458969": {
+      "source": "1404752088",
+      "target": "-793915935",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "AuthController",
+        "targetClassName": "AuthService",
+        "sourceClassToken": "AuthController",
+        "targetClassToken": "AuthService",
+        "targetModuleName": "AuthModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "1572458969"
+    },
+    "1603069310": {
+      "source": "1388955800",
+      "target": "418420354",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "TerminusModule",
+        "sourceClassName": "HttpHealthIndicator",
+        "targetClassName": "ModuleRef",
+        "sourceClassToken": "HttpHealthIndicator",
+        "targetClassToken": "ModuleRef",
+        "targetModuleName": "TerminusModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "1603069310"
+    },
+    "1674956983": {
+      "source": "-1959092373",
+      "target": "938844585",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PassportModule",
+        "targetModuleName": "LoggerModule"
+      },
+      "id": "1674956983"
+    },
+    "1781260693": {
+      "source": "-1910447296",
+      "target": "822859868",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "HealthModule",
+        "sourceClassName": "HealthController",
+        "targetClassName": "PrismaService",
+        "sourceClassToken": "HealthController",
+        "targetClassToken": "PrismaService",
+        "targetModuleName": "DatabaseModule",
+        "keyOrIndex": 4,
+        "injectionType": "constructor"
+      },
+      "id": "1781260693"
+    },
+    "1896903727": {
+      "source": "-1910447296",
+      "target": "-264216349",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "HealthModule",
+        "sourceClassName": "HealthController",
+        "targetClassName": "DiskHealthIndicator",
+        "sourceClassToken": "HealthController",
+        "targetClassToken": "DiskHealthIndicator",
+        "targetModuleName": "TerminusModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "1896903727"
+    },
+    "1976848738": {
+      "source": "1528017428",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DatabaseModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1976848738"
+    },
+    "1992057563": {
+      "source": "2031150453",
+      "target": "136760968",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "HealthModule",
+        "targetModuleName": "TerminusModule"
+      },
+      "id": "1992057563"
+    },
+    "2012155253": {
+      "source": "2031150453",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "HealthModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "2012155253"
+    },
+    "-1627651545": {
+      "source": "-1533610224",
+      "target": "418420354",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "TerminusModule",
+        "sourceClassName": "TypeOrmHealthIndicator",
+        "targetClassName": "ModuleRef",
+        "sourceClassToken": "TypeOrmHealthIndicator",
+        "targetClassToken": "ModuleRef",
+        "targetModuleName": "TerminusModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "-1627651545"
+    },
+    "-823014866": {
+      "source": "1408141043",
+      "target": "418420354",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "TerminusModule",
+        "sourceClassName": "MongooseHealthIndicator",
+        "targetClassName": "ModuleRef",
+        "sourceClassToken": "MongooseHealthIndicator",
+        "targetClassToken": "ModuleRef",
+        "targetModuleName": "TerminusModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "-823014866"
+    },
+    "-1159546068": {
+      "source": "-1676301719",
+      "target": "418420354",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "TerminusModule",
+        "sourceClassName": "SequelizeHealthIndicator",
+        "targetClassName": "ModuleRef",
+        "sourceClassToken": "SequelizeHealthIndicator",
+        "targetClassToken": "ModuleRef",
+        "targetModuleName": "TerminusModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "-1159546068"
+    },
+    "-559897492": {
+      "source": "-264216349",
+      "target": "1765565105",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "TerminusModule",
+        "sourceClassName": "DiskHealthIndicator",
+        "targetClassName": "CheckDiskSpaceLib",
+        "sourceClassToken": "DiskHealthIndicator",
+        "targetClassToken": "CheckDiskSpaceLib",
+        "targetModuleName": "TerminusModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-559897492"
+    },
+    "-1281721632": {
+      "source": "822859868",
+      "target": "-430147679",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "DatabaseModule",
+        "sourceClassName": "PrismaService",
+        "targetClassName": "LoggerService",
+        "sourceClassToken": "PrismaService",
+        "targetClassToken": "LoggerService",
+        "targetModuleName": "LoggerModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-1281721632"
+    },
+    "-545015034": {
+      "source": "1755859792",
+      "target": "671882984",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AppModule",
+        "sourceClassName": "ThrottlerGuard",
+        "targetClassName": "Reflector",
+        "sourceClassToken": "APP_GUARD (UUID: 1239237319)",
+        "targetClassToken": "Reflector",
+        "targetModuleName": "InternalCoreModule",
+        "keyOrIndex": 2,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "-545015034"
+    },
+    "-796451065": {
+      "source": "1746001014",
+      "target": "-584422356",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "TerminusModule",
+        "sourceClassName": "HealthCheckService",
+        "targetClassName": "HealthCheckExecutor",
+        "sourceClassToken": "HealthCheckService",
+        "targetClassToken": "HealthCheckExecutor",
+        "targetModuleName": "TerminusModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-796451065"
+    },
+    "-70042569": {
+      "source": "1746001014",
+      "target": "822552720",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "TerminusModule",
+        "sourceClassName": "HealthCheckService",
+        "targetClassName": "PrettyErrorLogger",
+        "sourceClassToken": "HealthCheckService",
+        "targetClassToken": "TERMINUS_ERROR_LOGGER",
+        "targetModuleName": "TerminusModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "-70042569"
+    },
+    "-1010734733": {
+      "source": "1746001014",
+      "target": "-1859643091",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "TerminusModule",
+        "sourceClassName": "HealthCheckService",
+        "targetClassName": "DefaultTerminusLogger",
+        "sourceClassToken": "HealthCheckService",
+        "targetClassToken": "TERMINUS_LOGGER",
+        "targetModuleName": "TerminusModule",
+        "keyOrIndex": 2,
+        "injectionType": "constructor"
+      },
+      "id": "-1010734733"
+    },
+    "-252862901": {
+      "source": "1388955800",
+      "target": "-1859643091",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "TerminusModule",
+        "sourceClassName": "HttpHealthIndicator",
+        "targetClassName": "DefaultTerminusLogger",
+        "sourceClassToken": "HttpHealthIndicator",
+        "targetClassToken": "TERMINUS_LOGGER",
+        "targetModuleName": "TerminusModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "-252862901"
+    },
+    "-1165608204": {
+      "source": "-793915935",
+      "target": "822859868",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "AuthService",
+        "targetClassName": "PrismaService",
+        "sourceClassToken": "AuthService",
+        "targetClassToken": "PrismaService",
+        "targetModuleName": "DatabaseModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-1165608204"
+    },
+    "-401191569": {
+      "source": "-1910447296",
+      "target": "1746001014",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "HealthModule",
+        "sourceClassName": "HealthController",
+        "targetClassName": "HealthCheckService",
+        "sourceClassToken": "HealthController",
+        "targetClassToken": "HealthCheckService",
+        "targetModuleName": "TerminusModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-401191569"
+    },
+    "-1839956544": {
+      "source": "-1910447296",
+      "target": "-1829942017",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "HealthModule",
+        "sourceClassName": "HealthController",
+        "targetClassName": "MemoryHealthIndicator",
+        "sourceClassToken": "HealthController",
+        "targetClassToken": "MemoryHealthIndicator",
+        "targetModuleName": "TerminusModule",
+        "keyOrIndex": 2,
+        "injectionType": "constructor"
+      },
+      "id": "-1839956544"
+    },
+    "-303671618": {
+      "source": "-1910447296",
+      "target": "-730198816",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "HealthModule",
+        "sourceClassName": "HealthController",
+        "targetClassName": "PrismaHealthIndicator",
+        "sourceClassToken": "HealthController",
+        "targetClassToken": "PrismaHealthIndicator",
+        "targetModuleName": "TerminusModule",
+        "keyOrIndex": 3,
+        "injectionType": "constructor"
+      },
+      "id": "-303671618"
+    },
+    "-381580406": {
+      "source": "385041166",
+      "target": "-793915935",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "JwtStrategy",
+        "targetClassName": "AuthService",
+        "sourceClassToken": "JwtStrategy",
+        "targetClassToken": "AuthService",
+        "targetModuleName": "AuthModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-381580406"
+    },
+    "-1091370085": {
+      "source": "-19112576",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-1091370085"
+    },
+    "-455858311": {
+      "source": "-19112576",
+      "target": "-1069663485",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "PrometheusModule"
+      },
+      "id": "-455858311"
+    },
+    "-1982204162": {
+      "source": "-19112576",
+      "target": "938844585",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "LoggerModule"
+      },
+      "id": "-1982204162"
+    },
+    "-844262897": {
+      "source": "-19112576",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "-844262897"
+    },
+    "-990355108": {
+      "source": "-19112576",
+      "target": "2031150453",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "HealthModule"
+      },
+      "id": "-990355108"
+    },
+    "-2016448962": {
+      "source": "1482218087",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ThrottlerModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-2016448962"
+    },
+    "-1842026782": {
+      "source": "-1069663485",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PrometheusModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1842026782"
+    },
+    "-1021608050": {
+      "source": "-1069663485",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PrometheusModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-1021608050"
+    },
+    "-871867539": {
+      "source": "-1069663485",
+      "target": "938844585",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PrometheusModule",
+        "targetModuleName": "LoggerModule"
+      },
+      "id": "-871867539"
+    },
+    "-784146777": {
+      "source": "938844585",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "LoggerModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-784146777"
+    },
+    "-480333793": {
+      "source": "938844585",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "LoggerModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-480333793"
+    },
+    "-50008508": {
+      "source": "1712628187",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-50008508"
+    },
+    "-1755655437": {
+      "source": "1712628187",
+      "target": "938844585",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "LoggerModule"
+      },
+      "id": "-1755655437"
+    },
+    "-1535945792": {
+      "source": "2031150453",
+      "target": "938844585",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "HealthModule",
+        "targetModuleName": "LoggerModule"
+      },
+      "id": "-1535945792"
+    },
+    "-1432503794": {
+      "source": "136760968",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TerminusModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1432503794"
+    },
+    "-117372508": {
+      "source": "136760968",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TerminusModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-117372508"
+    },
+    "-840705191": {
+      "source": "136760968",
+      "target": "938844585",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TerminusModule",
+        "targetModuleName": "LoggerModule"
+      },
+      "id": "-840705191"
+    },
+    "-1099218032": {
+      "source": "1528017428",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DatabaseModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-1099218032"
+    },
+    "-1906081363": {
+      "source": "1528017428",
+      "target": "938844585",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DatabaseModule",
+        "targetModuleName": "LoggerModule"
+      },
+      "id": "-1906081363"
+    },
+    "-877681771": {
+      "source": "-1134487807",
+      "target": "1528017428",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "DatabaseModule"
+      },
+      "id": "-877681771"
+    },
+    "-1377619055": {
+      "source": "-1134487807",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1377619055"
+    },
+    "-1088610631": {
+      "source": "-1134487807",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-1088610631"
+    },
+    "-929891684": {
+      "source": "-1134487807",
+      "target": "938844585",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "LoggerModule"
+      },
+      "id": "-929891684"
+    },
+    "-1594701976": {
+      "source": "-1959092373",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PassportModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-1594701976"
+    }
+  },
+  "entrypoints": {
+    "1404752088": [
+      {
+        "type": "http-endpoint",
+        "methodName": "register",
+        "className": "AuthController",
+        "classNodeId": "1404752088",
+        "metadata": {
+          "key": "/api/v1/auth/register",
+          "path": "/api/v1/auth/register",
+          "requestMethod": "POST",
+          "controllerVersion": "1"
+        },
+        "id": "1404752088_register"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "login",
+        "className": "AuthController",
+        "classNodeId": "1404752088",
+        "metadata": {
+          "key": "/api/v1/auth/login",
+          "path": "/api/v1/auth/login",
+          "requestMethod": "POST",
+          "controllerVersion": "1"
+        },
+        "id": "1404752088_login"
+      }
+    ],
+    "-1910447296": [
+      {
+        "type": "http-endpoint",
+        "methodName": "check",
+        "className": "HealthController",
+        "classNodeId": "-1910447296",
+        "metadata": {
+          "key": "/api/v1/health",
+          "path": "/api/v1/health",
+          "requestMethod": "GET",
+          "controllerVersion": "1"
+        },
+        "id": "-1910447296_check"
+      }
+    ]
+  },
+  "extras": {
+    "orphanedEnhancers": [
+      {
+        "subtype": "pipe",
+        "ref": "ValidationPipe"
+      }
+    ],
+    "attachedEnhancers": [
+      {
+        "nodeId": "1755859792"
+      }
+    ]
+  },
+  "status": "complete"
+}
